@@ -21,7 +21,7 @@ $ cd api-tributei-fullstack
 ```
 
 Para iniciá-lo, siga os passos abaixo:
-- Troque o user e password no 
+- Troque o user e password no config.js
 
 ```bash
 # Instalar as dependências
