@@ -31,10 +31,19 @@ module.exports = {
       weight,
       longitude
     })
-      console.log(deliveries)
       return response.json(deliveries)
   },
 
+  async delete(request, response){
+     
+     await Deliveries.destroy({
+       where:{},
+       truncate:true
+     }) 
 
+      return response.json({
+        message:"Os Registros foram deletados"
+      })
+}
 
 }

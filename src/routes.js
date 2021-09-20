@@ -8,7 +8,7 @@ routes.post('/deliveries', DeliveriesControllers.store)
 
 routes.get('/deliveries', DeliveriesControllers.index)
 
-
+routes.delete('/deliveries', DeliveriesControllers.delete)
 
 routes.get('/', (req,res) => {
   return res.json({
