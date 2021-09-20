@@ -9,18 +9,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node](https://nodejs.org/)
 - [Sequelize](https://sequelize.org/)
 - [Express](https://www.figma.com/)
+- [MySQL](https://www.figma.com/)
 
 ## Como executar 
 
 Clone esse projeto e acesse a pasta
 
 ```bash
-$ git clone https://github.com/alessandrordgs/Portfolio.git
-$ cd Portfolio
+$ git clone https://github.com/alessandrordgs/api-tributei-fullstack.git
+$ cd api-tributei-fullstack
 ```
 
 Para iniciá-lo, siga os passos abaixo:
-- Troque o user e password
+- Troque o user e password no 
 
 ```bash
 # Instalar as dependências

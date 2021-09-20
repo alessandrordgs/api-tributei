@@ -1,8 +1,8 @@
 module.exports = {
   dialect: 'mysql',
   host:"localhost",
-  username:"root",
-  password:"123456789",
+  username:"",
+  password:"",
   database:"fullstackChallenge",
   define:{
     timestamps:true,
