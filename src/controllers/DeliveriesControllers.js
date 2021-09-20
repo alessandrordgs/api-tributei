@@ -20,6 +20,7 @@ module.exports = {
     longitude
   } = request.body
 
+  if(name ==="") return response.status(400)
 
     const deliveries = await Deliveries.create({
       name,
@@ -31,6 +32,7 @@ module.exports = {
       weight,
       longitude
     })
+   
       return response.json(deliveries)
   },
 

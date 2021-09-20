@@ -10,10 +10,5 @@ routes.get('/deliveries', DeliveriesControllers.index)
 
 routes.delete('/deliveries', DeliveriesControllers.delete)
 
-routes.get('/', (req,res) => {
-  return res.json({
-    message: "Hello World"
-  })
-})
 
 module.exports = routes
